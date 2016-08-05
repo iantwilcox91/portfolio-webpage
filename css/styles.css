@@ -1,7 +1,3 @@
-/*These HTML tags are all incorporated:*/
-/*p, h, ul, ol, li, em, strong, a, img, div, span*/
-/*Bootstrap classes are used to style your page.*/
-/*  A custom-made stylesheet that uses cascading, the box model, and floats is included  */
 .asdf{
   border: 2px solid green;
   background: rgba(140, 140, 140, 0.4)
@@ -18,6 +14,10 @@ li {
 h1 {
   color: red;
 }
+h2 {
+  color: black;
+}
 h4 {
+  font-style: italic;
   color: lightblue;
 }
