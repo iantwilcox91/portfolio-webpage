@@ -14,23 +14,55 @@
 
   <body>
 
+
+    <div class="container">
     <div class="container">
       <!-- try to make this a slideshow? -->
       <div class="jumbotron">
       <p><strong>Welcome to the <em>Ian Wilcox</em> homepage</strong></p>
       </div>
-      <img src="img/wamap.gif" alt="washington" width="90%" height="500px"/>
     </div>
+
+    <div class="container">
+      <div id="myCarousel" class="carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="img/wamap.gif" alt="washington"/>
+          </div>
+
+
+          <div class="item">
+            <img src="img/cat-black.jpg" alt="cat"/>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+
 
     <div class="container">
       <div class="row">
 
-        <div class="col-sm-6">
+        <div class="col-sm-6 asdf">
           <h1 class="text-center">this is a list of projects i have created</h1>
           <h4>click "link" to be linked to them</h4>
           <!-- include a brief description of the project and what languages it uses -->
           <ol>
-            <!-- will try to make this accordion -->
             <li>hello-world</li>
               <p>description</p>
               <p><a href="https://github.com/iantwilcox91/hello-world">link</a></p>
@@ -61,7 +93,7 @@
           </ol>
         </div>
 
-        <div class="col-sm-6">
+        <div class="col-sm-6 asdf">
           <h1 class="text-center">these are some things about me</h1>
           <ul>
             <li>background</li>
@@ -83,7 +115,7 @@
 
       </div>
     </div>
-
+  </div>
   </body>
 
 </html>
