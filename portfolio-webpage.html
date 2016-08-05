@@ -13,27 +13,63 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   </head>
-
   <body>
 
     <div class="container">
-      <h1><strong>Welcome to the <em>Ian Wilcox homepage</em></strong></h2>
-      <img src="img/wamap.gif" alt="washington" />
+      <!-- try to make this a slideshow? -->
+      <div class="jumbotron">
+      <p><strong>Welcome to the <em>Ian Wilcox</em> homepage</strong></p>
+      </div>
+      <img src="img/wamap.gif" alt="washington" width="90%" height="500px"/>
     </div>
 
-    <div class="row">
-        <div class="col-xs-6">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm-6">
+          <h1>this is a list of projects i have created</h1>
+          <h4>click them to be linked to them</h4>
+          <!-- include a brief description of the project and what languages it uses -->
           <ol>
-            <li>this is a list of my projects</li>
+            <!-- will try to make this accordion -->
+            <li><a href="https://github.com/iantwilcox91/hello-world/blob/master/hello-world.html">hello-world</a></li>
+              <p>description</p>
+            <li><a href="#">vacation-site</a></li>
+              <p>description</p>
+            <li><a href="#">favorite-band</a></li>
+              <p>description</p>
+            <li><a href="#">boring-lecture</a></li>
+              <p>description</p>
+            <li><a href="#">cupcake-shop</a></li>
+              <p>description</p>
+            <li><a href="#">cat-homepage</a></li>
+              <p>description</p>
+            <li><a href="#">my-first-webpage</a></li>
+              <p>description</p>
+            <li><a href="#">cookies</a></li>
+              <p>description</p>
+            <li><a href="#">goodbye</a></li>
+              <p>description</p>
           </ol>
         </div>
-        <div class="col-xs-6">
+
+        <div class="col-sm-6">
+          <h1>these are some things about me</h1>
           <ul>
-            <li>these are some things about me</li>
+            <li>background</li>
+              <ul>
+                <!-- nested list. do we want all this to dropdown? -->
+                <li>education</li>
+                <li>job experience</li>
+                <li>why did you decide to take a class on programming</li>
+                <li>etc</li>
+              </ul>
+            <li>current interests/hobbies/skills</li>
           </ul>
         </div>
-    </div>
 
+      </div>
+    </div>
 
   </body>
 
