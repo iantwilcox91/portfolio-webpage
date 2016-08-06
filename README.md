@@ -12,7 +12,6 @@ _This website hosts links to all of my projects so far and will demonstrate what
 
 * _connect to the internet_
 * _open a browser_
-<!-- link to site on GitHub Pages????? -->
 * _redirect to the URL for the homepage_
 
 ## Known Bugs
@@ -28,6 +27,6 @@ _{Javascript}_
 
 ### License
 
-*{MIT license}*
+*MIT license*
 
 Copyright (c) 2016 **_Ian Wilcox_**
